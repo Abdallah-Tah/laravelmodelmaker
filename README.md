@@ -31,7 +31,7 @@ This command will create a model named `ModelName` in the app directory and its 
 To generate relationships for an existing model, use the atm:generate-relationship command:
 
 ```bash
-php artisan atm:generate-relationship ModelName
+php artisan atm:generate-relationship
 ```
 
 This command will prompt you to choose the desired relationships and related models for the specified model.
