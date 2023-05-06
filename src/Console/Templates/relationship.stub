@@ -1,0 +1,4 @@
+    public function {{relationshipName}}()
+    {
+        return $this->{{relationshipType}}(App\Models\{{relatedModel}}::class{{foreignKeys}});
+    }

@@ -1,0 +1,38 @@
+{
+    "name": "amohamed/laravelmodelmaker",
+    "description": "LaravelModelMaker is a powerful and easy-to-use package for Laravel developers...",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },       
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Amohamed\\Laravelmodelmaker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amohamed\\Laravelmodelmaker\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amohamed\\Laravelmodelmaker\\LaravelModelMakerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdallah Mohamed",
+            "email": "abdallah.mohamed@kyocera-avx.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
