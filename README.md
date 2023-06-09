@@ -13,8 +13,10 @@ Laravel Model Maker is a package that simplifies the process of generating model
 To install the Laravel Model Maker package, use the following composer command:
 
 ```bash
-composer require amohamed/laravelmodelmaker
+composer require amohamed/laravelmodelmaker --dev
 ```
+
+It is recommended to only require the package for development.
 
 ## Usage
 
